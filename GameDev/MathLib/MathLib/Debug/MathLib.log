@@ -1,0 +1,19 @@
+﻿Build started 4/14/2015 2:18:18 PM.
+     1>Project "C:\Users\Kees\Documents\Visual Studio 2012\Projects\MathLib\MathLib\MathLib.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp Translation.cpp
+         Translation.cpp
+     1>c:\users\kees\documents\visual studio 2012\projects\mathlib\mathlib\translation.cpp(8): warning C4091: 'static ' : ignored on left of 'Translation' when no variable is declared
+         Generating Code...
+         Compiling...
+         Main.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Kees\Documents\Visual Studio 2012\Projects\MathLib\Debug\MathLib.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Kees\Documents\Visual Studio 2012\Projects\MathLib\Debug\MathLib.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Kees\Documents\Visual Studio 2012\Projects\MathLib\Debug\MathLib.lib" /MACHINE:X86 Debug\Main.obj
+         Debug\Translation.obj
+         MathLib.vcxproj -> C:\Users\Kees\Documents\Visual Studio 2012\Projects\MathLib\Debug\MathLib.exe
+     1>Done Building Project "C:\Users\Kees\Documents\Visual Studio 2012\Projects\MathLib\MathLib\MathLib.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.80

@@ -1,0 +1,52 @@
+﻿Build started 2015-11-03 3:46:01 PM.
+     1>Project "C:\GameDev\Bengine\Bengine.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Bengine.cpp Camera2D.cpp Errors.cpp GLSLProgram.cpp ImageLoader.cpp InputManager.cpp IOManager.cpp picoPNG.cpp ResourceManager.cpp Sprite.cpp SpriteBatch.cpp TextureCache.cpp Timing.cpp Window.cpp
+         Window.cpp
+         Timing.cpp
+     1>c:\gamedev\bengine\timing.cpp(24): warning C4244: 'initializing' : conversion from 'Uint32' to 'float', possible loss of data
+     1>c:\gamedev\bengine\timing.cpp(41): warning C4244: 'initializing' : conversion from 'Uint32' to 'float', possible loss of data
+     1>c:\gamedev\bengine\timing.cpp(44): warning C4244: 'initializing' : conversion from 'Uint32' to 'float', possible loss of data
+         TextureCache.cpp
+         SpriteBatch.cpp
+     1>c:\gamedev\bengine\spritebatch.cpp(25): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\gamedev\bengine\spritebatch.cpp(67): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\gamedev\bengine\spritebatch.cpp(101): warning C4018: '<' : signed/unsigned mismatch
+         Sprite.cpp
+         ResourceManager.cpp
+         picoPNG.cpp
+         IOManager.cpp
+     1>c:\gamedev\bengine\iomanager.cpp(18): warning C4244: 'initializing' : conversion from 'std::streamoff' to 'int', possible loss of data
+     1>c:\gamedev\bengine\iomanager.cpp(22): warning C4244: '-=' : conversion from 'std::streamoff' to 'int', possible loss of data
+         InputManager.cpp
+         ImageLoader.cpp
+         GLSLProgram.cpp
+         Errors.cpp
+         Camera2D.cpp
+         Bengine.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\GameDev\_Projects\ZombieGame\Debug\Bengine.lib" SDL2.lib SDL2main.lib opengl32.lib glew32.lib /NOLOGO Debug\Bengine.obj
+         Debug\Camera2D.obj
+         Debug\Errors.obj
+         Debug\GLSLProgram.obj
+         Debug\ImageLoader.obj
+         Debug\InputManager.obj
+         Debug\IOManager.obj
+         Debug\picoPNG.obj
+         Debug\ResourceManager.obj
+         Debug\Sprite.obj
+         Debug\SpriteBatch.obj
+         Debug\TextureCache.obj
+         Debug\Timing.obj
+         Debug\Window.obj
+     1>opengl32.lib(OPENGL32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in SDL2.lib(SDL2.dll); second definition ignored
+     1>opengl32.lib(OPENGL32.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>glew32.lib(glew32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in SDL2.lib(SDL2.dll); second definition ignored
+     1>glew32.lib(glew32.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         Bengine.vcxproj -> C:\GameDev\_Projects\ZombieGame\Debug\Bengine.lib
+     1>Done Building Project "C:\GameDev\Bengine\Bengine.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.53

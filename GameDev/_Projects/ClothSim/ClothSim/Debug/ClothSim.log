@@ -1,0 +1,503 @@
+﻿Build started 2015-11-17 3:01:47 PM.
+     1>Project "C:\GameDev\_Projects\ClothSim\ClothSim\ClothSim.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Cloth.cpp Main.cpp MassPoint.cpp Randomizer.cpp Spring.cpp Vec3.cpp
+         Vec3.cpp
+         Spring.cpp
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): error C2144: syntax error: 'void' should be preceded by ';'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): error C2182: 'APIENTRY': illegal use of type 'void'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): error C2146: syntax error: missing ';' before identifier 'glAccum'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1158): error C2144: syntax error: 'void' should be preceded by ';'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1158): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1158): error C2086: 'int WINGDIAPI': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'WINGDIAPI'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1158): error C2182: 'APIENTRY': illegal use of type 'void'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1158): error C2086: 'int APIENTRY': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'APIENTRY'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1158): error C2146: syntax error: missing ';' before identifier 'glAlphaFunc'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1159): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1159): error C2086: 'int WINGDIAPI': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'WINGDIAPI'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1159): error C2146: syntax error: missing ';' before identifier 'GLboolean'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1160): error C2144: syntax error: 'void' should be preceded by ';'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1160): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1160): error C2086: 'int WINGDIAPI': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'WINGDIAPI'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1160): error C2182: 'APIENTRY': illegal use of type 'void'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1160): error C2086: 'int APIENTRY': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'APIENTRY'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1160): error C2146: syntax error: missing ';' before identifier 'glArrayElement'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1161): error C2144: syntax error: 'void' should be preceded by ';'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1161): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1161): error C2086: 'int WINGDIAPI': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'WINGDIAPI'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1161): error C2182: 'APIENTRY': illegal use of type 'void'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1161): error C2086: 'int APIENTRY': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'APIENTRY'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1161): error C2146: syntax error: missing ';' before identifier 'glBegin'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1162): error C2144: syntax error: 'void' should be preceded by ';'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1162): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1162): error C2086: 'int WINGDIAPI': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'WINGDIAPI'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1162): error C2182: 'APIENTRY': illegal use of type 'void'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1162): error C2086: 'int APIENTRY': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'APIENTRY'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1162): error C2146: syntax error: missing ';' before identifier 'glBindTexture'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1163): error C2144: syntax error: 'void' should be preceded by ';'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1163): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1163): error C2086: 'int WINGDIAPI': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'WINGDIAPI'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1163): error C2182: 'APIENTRY': illegal use of type 'void'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1163): error C2086: 'int APIENTRY': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'APIENTRY'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1163): error C2146: syntax error: missing ';' before identifier 'glBitmap'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1164): error C2144: syntax error: 'void' should be preceded by ';'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1164): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1164): error C2086: 'int WINGDIAPI': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'WINGDIAPI'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1164): error C2182: 'APIENTRY': illegal use of type 'void'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1164): error C2086: 'int APIENTRY': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'APIENTRY'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1164): error C2146: syntax error: missing ';' before identifier 'glBlendFunc'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1165): error C2144: syntax error: 'void' should be preceded by ';'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1165): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1165): error C2086: 'int WINGDIAPI': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'WINGDIAPI'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1165): error C2182: 'APIENTRY': illegal use of type 'void'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1165): error C2086: 'int APIENTRY': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'APIENTRY'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1165): error C2146: syntax error: missing ';' before identifier 'glCallList'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1166): error C2144: syntax error: 'void' should be preceded by ';'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1166): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1166): error C2086: 'int WINGDIAPI': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'WINGDIAPI'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1166): error C2182: 'APIENTRY': illegal use of type 'void'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1166): error C2086: 'int APIENTRY': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'APIENTRY'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1166): error C2146: syntax error: missing ';' before identifier 'glCallLists'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1167): error C2144: syntax error: 'void' should be preceded by ';'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1167): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1167): error C2086: 'int WINGDIAPI': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'WINGDIAPI'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1167): error C2182: 'APIENTRY': illegal use of type 'void'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1167): error C2086: 'int APIENTRY': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'APIENTRY'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1167): error C2146: syntax error: missing ';' before identifier 'glClear'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1168): error C2144: syntax error: 'void' should be preceded by ';'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1168): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1168): error C2086: 'int WINGDIAPI': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'WINGDIAPI'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1168): error C2182: 'APIENTRY': illegal use of type 'void'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1168): error C2086: 'int APIENTRY': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'APIENTRY'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1168): error C2146: syntax error: missing ';' before identifier 'glClearAccum'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1169): error C2144: syntax error: 'void' should be preceded by ';'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1169): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1169): error C2086: 'int WINGDIAPI': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'WINGDIAPI'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1169): error C2182: 'APIENTRY': illegal use of type 'void'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1169): error C2086: 'int APIENTRY': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'APIENTRY'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1169): error C2146: syntax error: missing ';' before identifier 'glClearColor'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1170): error C2144: syntax error: 'void' should be preceded by ';'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1170): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1170): error C2086: 'int WINGDIAPI': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'WINGDIAPI'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1170): error C2182: 'APIENTRY': illegal use of type 'void'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1170): error C2086: 'int APIENTRY': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'APIENTRY'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1170): error C2146: syntax error: missing ';' before identifier 'glClearDepth'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1171): error C2144: syntax error: 'void' should be preceded by ';'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1171): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1171): error C2086: 'int WINGDIAPI': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'WINGDIAPI'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1171): error C2182: 'APIENTRY': illegal use of type 'void'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1171): error C2086: 'int APIENTRY': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'APIENTRY'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1171): error C2146: syntax error: missing ';' before identifier 'glClearIndex'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1172): error C2144: syntax error: 'void' should be preceded by ';'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1172): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1172): error C2086: 'int WINGDIAPI': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'WINGDIAPI'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1172): error C2182: 'APIENTRY': illegal use of type 'void'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1172): error C2086: 'int APIENTRY': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'APIENTRY'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1172): error C2146: syntax error: missing ';' before identifier 'glClearStencil'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1173): error C2144: syntax error: 'void' should be preceded by ';'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1173): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1173): error C2086: 'int WINGDIAPI': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'WINGDIAPI'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1173): error C2182: 'APIENTRY': illegal use of type 'void'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1173): error C2086: 'int APIENTRY': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'APIENTRY'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1173): error C2146: syntax error: missing ';' before identifier 'glClipPlane'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1174): error C2144: syntax error: 'void' should be preceded by ';'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1174): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1174): error C2086: 'int WINGDIAPI': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'WINGDIAPI'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1174): error C2182: 'APIENTRY': illegal use of type 'void'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1174): error C2086: 'int APIENTRY': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'APIENTRY'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1174): error C2146: syntax error: missing ';' before identifier 'glColor3b'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1175): error C2144: syntax error: 'void' should be preceded by ';'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1175): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1175): error C2086: 'int WINGDIAPI': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'WINGDIAPI'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1175): error C2182: 'APIENTRY': illegal use of type 'void'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1175): error C2086: 'int APIENTRY': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'APIENTRY'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1175): error C2146: syntax error: missing ';' before identifier 'glColor3bv'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1176): error C2144: syntax error: 'void' should be preceded by ';'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1176): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1176): error C2086: 'int WINGDIAPI': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'WINGDIAPI'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1176): error C2182: 'APIENTRY': illegal use of type 'void'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1176): error C2086: 'int APIENTRY': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'APIENTRY'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1176): error C2146: syntax error: missing ';' before identifier 'glColor3d'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1177): error C2144: syntax error: 'void' should be preceded by ';'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1177): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1177): error C2086: 'int WINGDIAPI': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'WINGDIAPI'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1177): error C2182: 'APIENTRY': illegal use of type 'void'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1177): error C2086: 'int APIENTRY': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'APIENTRY'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1177): error C2146: syntax error: missing ';' before identifier 'glColor3dv'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1178): error C2144: syntax error: 'void' should be preceded by ';'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1178): fatal error C1003: error count exceeds 100; stopping compilation
+         Randomizer.cpp
+         MassPoint.cpp
+     1>c:\gamedev\_projects\clothsim\clothsim\masspoint.cpp(42): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+         Main.cpp
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): error C2144: syntax error: 'void' should be preceded by ';'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): error C2182: 'APIENTRY': illegal use of type 'void'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): error C2146: syntax error: missing ';' before identifier 'glAccum'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1158): error C2144: syntax error: 'void' should be preceded by ';'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1158): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1158): error C2086: 'int WINGDIAPI': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'WINGDIAPI'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1158): error C2182: 'APIENTRY': illegal use of type 'void'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1158): error C2086: 'int APIENTRY': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'APIENTRY'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1158): error C2146: syntax error: missing ';' before identifier 'glAlphaFunc'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1159): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1159): error C2086: 'int WINGDIAPI': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'WINGDIAPI'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1159): error C2146: syntax error: missing ';' before identifier 'GLboolean'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1160): error C2144: syntax error: 'void' should be preceded by ';'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1160): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1160): error C2086: 'int WINGDIAPI': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'WINGDIAPI'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1160): error C2182: 'APIENTRY': illegal use of type 'void'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1160): error C2086: 'int APIENTRY': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'APIENTRY'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1160): error C2146: syntax error: missing ';' before identifier 'glArrayElement'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1161): error C2144: syntax error: 'void' should be preceded by ';'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1161): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1161): error C2086: 'int WINGDIAPI': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'WINGDIAPI'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1161): error C2182: 'APIENTRY': illegal use of type 'void'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1161): error C2086: 'int APIENTRY': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'APIENTRY'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1161): error C2146: syntax error: missing ';' before identifier 'glBegin'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1162): error C2144: syntax error: 'void' should be preceded by ';'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1162): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1162): error C2086: 'int WINGDIAPI': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'WINGDIAPI'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1162): error C2182: 'APIENTRY': illegal use of type 'void'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1162): error C2086: 'int APIENTRY': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'APIENTRY'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1162): error C2146: syntax error: missing ';' before identifier 'glBindTexture'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1163): error C2144: syntax error: 'void' should be preceded by ';'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1163): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1163): error C2086: 'int WINGDIAPI': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'WINGDIAPI'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1163): error C2182: 'APIENTRY': illegal use of type 'void'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1163): error C2086: 'int APIENTRY': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'APIENTRY'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1163): error C2146: syntax error: missing ';' before identifier 'glBitmap'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1164): error C2144: syntax error: 'void' should be preceded by ';'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1164): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1164): error C2086: 'int WINGDIAPI': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'WINGDIAPI'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1164): error C2182: 'APIENTRY': illegal use of type 'void'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1164): error C2086: 'int APIENTRY': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'APIENTRY'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1164): error C2146: syntax error: missing ';' before identifier 'glBlendFunc'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1165): error C2144: syntax error: 'void' should be preceded by ';'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1165): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1165): error C2086: 'int WINGDIAPI': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'WINGDIAPI'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1165): error C2182: 'APIENTRY': illegal use of type 'void'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1165): error C2086: 'int APIENTRY': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'APIENTRY'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1165): error C2146: syntax error: missing ';' before identifier 'glCallList'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1166): error C2144: syntax error: 'void' should be preceded by ';'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1166): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1166): error C2086: 'int WINGDIAPI': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'WINGDIAPI'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1166): error C2182: 'APIENTRY': illegal use of type 'void'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1166): error C2086: 'int APIENTRY': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'APIENTRY'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1166): error C2146: syntax error: missing ';' before identifier 'glCallLists'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1167): error C2144: syntax error: 'void' should be preceded by ';'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1167): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1167): error C2086: 'int WINGDIAPI': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'WINGDIAPI'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1167): error C2182: 'APIENTRY': illegal use of type 'void'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1167): error C2086: 'int APIENTRY': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'APIENTRY'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1167): error C2146: syntax error: missing ';' before identifier 'glClear'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1168): error C2144: syntax error: 'void' should be preceded by ';'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1168): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1168): error C2086: 'int WINGDIAPI': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'WINGDIAPI'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1168): error C2182: 'APIENTRY': illegal use of type 'void'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1168): error C2086: 'int APIENTRY': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'APIENTRY'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1168): error C2146: syntax error: missing ';' before identifier 'glClearAccum'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1169): error C2144: syntax error: 'void' should be preceded by ';'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1169): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1169): error C2086: 'int WINGDIAPI': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'WINGDIAPI'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1169): error C2182: 'APIENTRY': illegal use of type 'void'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1169): error C2086: 'int APIENTRY': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'APIENTRY'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1169): error C2146: syntax error: missing ';' before identifier 'glClearColor'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1170): error C2144: syntax error: 'void' should be preceded by ';'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1170): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1170): error C2086: 'int WINGDIAPI': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'WINGDIAPI'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1170): error C2182: 'APIENTRY': illegal use of type 'void'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1170): error C2086: 'int APIENTRY': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'APIENTRY'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1170): error C2146: syntax error: missing ';' before identifier 'glClearDepth'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1171): error C2144: syntax error: 'void' should be preceded by ';'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1171): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1171): error C2086: 'int WINGDIAPI': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'WINGDIAPI'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1171): error C2182: 'APIENTRY': illegal use of type 'void'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1171): error C2086: 'int APIENTRY': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'APIENTRY'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1171): error C2146: syntax error: missing ';' before identifier 'glClearIndex'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1172): error C2144: syntax error: 'void' should be preceded by ';'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1172): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1172): error C2086: 'int WINGDIAPI': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'WINGDIAPI'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1172): error C2182: 'APIENTRY': illegal use of type 'void'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1172): error C2086: 'int APIENTRY': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'APIENTRY'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1172): error C2146: syntax error: missing ';' before identifier 'glClearStencil'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1173): error C2144: syntax error: 'void' should be preceded by ';'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1173): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1173): error C2086: 'int WINGDIAPI': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'WINGDIAPI'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1173): error C2182: 'APIENTRY': illegal use of type 'void'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1173): error C2086: 'int APIENTRY': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'APIENTRY'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1173): error C2146: syntax error: missing ';' before identifier 'glClipPlane'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1174): error C2144: syntax error: 'void' should be preceded by ';'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1174): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1174): error C2086: 'int WINGDIAPI': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'WINGDIAPI'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1174): error C2182: 'APIENTRY': illegal use of type 'void'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1174): error C2086: 'int APIENTRY': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'APIENTRY'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1174): error C2146: syntax error: missing ';' before identifier 'glColor3b'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1175): error C2144: syntax error: 'void' should be preceded by ';'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1175): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1175): error C2086: 'int WINGDIAPI': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'WINGDIAPI'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1175): error C2182: 'APIENTRY': illegal use of type 'void'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1175): error C2086: 'int APIENTRY': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'APIENTRY'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1175): error C2146: syntax error: missing ';' before identifier 'glColor3bv'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1176): error C2144: syntax error: 'void' should be preceded by ';'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1176): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1176): error C2086: 'int WINGDIAPI': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'WINGDIAPI'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1176): error C2182: 'APIENTRY': illegal use of type 'void'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1176): error C2086: 'int APIENTRY': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'APIENTRY'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1176): error C2146: syntax error: missing ';' before identifier 'glColor3d'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1177): error C2144: syntax error: 'void' should be preceded by ';'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1177): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1177): error C2086: 'int WINGDIAPI': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'WINGDIAPI'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1177): error C2182: 'APIENTRY': illegal use of type 'void'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1177): error C2086: 'int APIENTRY': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'APIENTRY'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1177): error C2146: syntax error: missing ';' before identifier 'glColor3dv'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1178): error C2144: syntax error: 'void' should be preceded by ';'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1178): fatal error C1003: error count exceeds 100; stopping compilation
+         Cloth.cpp
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): error C2144: syntax error: 'void' should be preceded by ';'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): error C2182: 'APIENTRY': illegal use of type 'void'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): error C2146: syntax error: missing ';' before identifier 'glAccum'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1158): error C2144: syntax error: 'void' should be preceded by ';'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1158): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1158): error C2086: 'int WINGDIAPI': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'WINGDIAPI'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1158): error C2182: 'APIENTRY': illegal use of type 'void'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1158): error C2086: 'int APIENTRY': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'APIENTRY'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1158): error C2146: syntax error: missing ';' before identifier 'glAlphaFunc'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1159): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1159): error C2086: 'int WINGDIAPI': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'WINGDIAPI'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1159): error C2146: syntax error: missing ';' before identifier 'GLboolean'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1160): error C2144: syntax error: 'void' should be preceded by ';'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1160): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1160): error C2086: 'int WINGDIAPI': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'WINGDIAPI'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1160): error C2182: 'APIENTRY': illegal use of type 'void'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1160): error C2086: 'int APIENTRY': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'APIENTRY'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1160): error C2146: syntax error: missing ';' before identifier 'glArrayElement'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1161): error C2144: syntax error: 'void' should be preceded by ';'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1161): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1161): error C2086: 'int WINGDIAPI': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'WINGDIAPI'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1161): error C2182: 'APIENTRY': illegal use of type 'void'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1161): error C2086: 'int APIENTRY': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'APIENTRY'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1161): error C2146: syntax error: missing ';' before identifier 'glBegin'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1162): error C2144: syntax error: 'void' should be preceded by ';'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1162): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1162): error C2086: 'int WINGDIAPI': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'WINGDIAPI'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1162): error C2182: 'APIENTRY': illegal use of type 'void'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1162): error C2086: 'int APIENTRY': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'APIENTRY'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1162): error C2146: syntax error: missing ';' before identifier 'glBindTexture'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1163): error C2144: syntax error: 'void' should be preceded by ';'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1163): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1163): error C2086: 'int WINGDIAPI': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'WINGDIAPI'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1163): error C2182: 'APIENTRY': illegal use of type 'void'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1163): error C2086: 'int APIENTRY': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'APIENTRY'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1163): error C2146: syntax error: missing ';' before identifier 'glBitmap'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1164): error C2144: syntax error: 'void' should be preceded by ';'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1164): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1164): error C2086: 'int WINGDIAPI': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'WINGDIAPI'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1164): error C2182: 'APIENTRY': illegal use of type 'void'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1164): error C2086: 'int APIENTRY': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'APIENTRY'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1164): error C2146: syntax error: missing ';' before identifier 'glBlendFunc'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1165): error C2144: syntax error: 'void' should be preceded by ';'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1165): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1165): error C2086: 'int WINGDIAPI': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'WINGDIAPI'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1165): error C2182: 'APIENTRY': illegal use of type 'void'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1165): error C2086: 'int APIENTRY': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'APIENTRY'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1165): error C2146: syntax error: missing ';' before identifier 'glCallList'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1166): error C2144: syntax error: 'void' should be preceded by ';'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1166): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1166): error C2086: 'int WINGDIAPI': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'WINGDIAPI'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1166): error C2182: 'APIENTRY': illegal use of type 'void'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1166): error C2086: 'int APIENTRY': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'APIENTRY'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1166): error C2146: syntax error: missing ';' before identifier 'glCallLists'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1167): error C2144: syntax error: 'void' should be preceded by ';'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1167): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1167): error C2086: 'int WINGDIAPI': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'WINGDIAPI'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1167): error C2182: 'APIENTRY': illegal use of type 'void'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1167): error C2086: 'int APIENTRY': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'APIENTRY'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1167): error C2146: syntax error: missing ';' before identifier 'glClear'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1168): error C2144: syntax error: 'void' should be preceded by ';'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1168): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1168): error C2086: 'int WINGDIAPI': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'WINGDIAPI'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1168): error C2182: 'APIENTRY': illegal use of type 'void'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1168): error C2086: 'int APIENTRY': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'APIENTRY'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1168): error C2146: syntax error: missing ';' before identifier 'glClearAccum'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1169): error C2144: syntax error: 'void' should be preceded by ';'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1169): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1169): error C2086: 'int WINGDIAPI': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'WINGDIAPI'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1169): error C2182: 'APIENTRY': illegal use of type 'void'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1169): error C2086: 'int APIENTRY': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'APIENTRY'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1169): error C2146: syntax error: missing ';' before identifier 'glClearColor'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1170): error C2144: syntax error: 'void' should be preceded by ';'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1170): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1170): error C2086: 'int WINGDIAPI': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'WINGDIAPI'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1170): error C2182: 'APIENTRY': illegal use of type 'void'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1170): error C2086: 'int APIENTRY': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'APIENTRY'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1170): error C2146: syntax error: missing ';' before identifier 'glClearDepth'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1171): error C2144: syntax error: 'void' should be preceded by ';'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1171): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1171): error C2086: 'int WINGDIAPI': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'WINGDIAPI'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1171): error C2182: 'APIENTRY': illegal use of type 'void'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1171): error C2086: 'int APIENTRY': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'APIENTRY'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1171): error C2146: syntax error: missing ';' before identifier 'glClearIndex'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1172): error C2144: syntax error: 'void' should be preceded by ';'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1172): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1172): error C2086: 'int WINGDIAPI': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'WINGDIAPI'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1172): error C2182: 'APIENTRY': illegal use of type 'void'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1172): error C2086: 'int APIENTRY': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'APIENTRY'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1172): error C2146: syntax error: missing ';' before identifier 'glClearStencil'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1173): error C2144: syntax error: 'void' should be preceded by ';'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1173): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1173): error C2086: 'int WINGDIAPI': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'WINGDIAPI'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1173): error C2182: 'APIENTRY': illegal use of type 'void'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1173): error C2086: 'int APIENTRY': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'APIENTRY'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1173): error C2146: syntax error: missing ';' before identifier 'glClipPlane'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1174): error C2144: syntax error: 'void' should be preceded by ';'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1174): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1174): error C2086: 'int WINGDIAPI': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'WINGDIAPI'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1174): error C2182: 'APIENTRY': illegal use of type 'void'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1174): error C2086: 'int APIENTRY': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'APIENTRY'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1174): error C2146: syntax error: missing ';' before identifier 'glColor3b'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1175): error C2144: syntax error: 'void' should be preceded by ';'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1175): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1175): error C2086: 'int WINGDIAPI': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'WINGDIAPI'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1175): error C2182: 'APIENTRY': illegal use of type 'void'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1175): error C2086: 'int APIENTRY': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'APIENTRY'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1175): error C2146: syntax error: missing ';' before identifier 'glColor3bv'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1176): error C2144: syntax error: 'void' should be preceded by ';'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1176): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1176): error C2086: 'int WINGDIAPI': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'WINGDIAPI'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1176): error C2182: 'APIENTRY': illegal use of type 'void'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1176): error C2086: 'int APIENTRY': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'APIENTRY'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1176): error C2146: syntax error: missing ';' before identifier 'glColor3d'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1177): error C2144: syntax error: 'void' should be preceded by ';'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1177): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1177): error C2086: 'int WINGDIAPI': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'WINGDIAPI'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1177): error C2182: 'APIENTRY': illegal use of type 'void'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1177): error C2086: 'int APIENTRY': redefinition
+         c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1157): note: see declaration of 'APIENTRY'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1177): error C2146: syntax error: missing ';' before identifier 'glColor3dv'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1178): error C2144: syntax error: 'void' should be preceded by ';'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(1178): fatal error C1003: error count exceeds 100; stopping compilation
+         Generating Code...
+     1>Done Building Project "C:\GameDev\_Projects\ClothSim\ClothSim\ClothSim.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.65

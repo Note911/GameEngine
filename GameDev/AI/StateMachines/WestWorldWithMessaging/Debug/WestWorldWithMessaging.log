@@ -1,0 +1,33 @@
+﻿Build started 2015-10-20 1:35:19 PM.
+     1>Project "C:\GameDev\AI\StateMachines\WestWorldWithMessaging\WestWorldWithMessaging.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IC:\GameDev\AI\Common /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo".\Debug/" /Fd".\Debug/vc140.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt ..\..\Common\Time\CrudeTimer.cpp BaseGameEntity.cpp EntityManager.cpp main.cpp MessageDispatcher.cpp Miner.cpp MinerOwnedStates.cpp MinersWife.cpp MinersWifeOwnedStates.cpp
+         MinersWifeOwnedStates.cpp
+         MinersWife.cpp
+         MinerOwnedStates.cpp
+         Miner.cpp
+         MessageDispatcher.cpp
+         main.cpp
+         EntityManager.cpp
+         BaseGameEntity.cpp
+         CrudeTimer.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug/WestWorldWithMessaging.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:".\Debug/WestWorldWithMessaging.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\Debug\WestWorldWithMessaging.lib" /MACHINE:X86 /SAFESEH .\Debug/CrudeTimer.obj
+         .\Debug/BaseGameEntity.obj
+         .\Debug/EntityManager.obj
+         .\Debug/main.obj
+         .\Debug/MessageDispatcher.obj
+         .\Debug/Miner.obj
+         .\Debug/MinerOwnedStates.obj
+         .\Debug/MinersWife.obj
+         .\Debug/MinersWifeOwnedStates.obj
+     1>CrudeTimer.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         WestWorldWithMessaging.vcxproj -> C:\GameDev\AI\StateMachines\WestWorldWithMessaging\.\Debug\WestWorldWithMessaging.exe
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\bscmake.exe /nologo /o".\Debug/WestWorldWithMessaging.bsc" .\Debug\CrudeTimer.sbr .\Debug\BaseGameEntity.sbr .\Debug\EntityManager.sbr .\Debug\main.sbr .\Debug\MessageDispatcher.sbr .\Debug\Miner.sbr .\Debug\MinerOwnedStates.sbr .\Debug\MinersWife.sbr .\Debug\MinersWifeOwnedStates.sbr
+     1>Done Building Project "C:\GameDev\AI\StateMachines\WestWorldWithMessaging\WestWorldWithMessaging.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:15.73

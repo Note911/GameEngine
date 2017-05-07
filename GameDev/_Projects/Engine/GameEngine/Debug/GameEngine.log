@@ -1,0 +1,87 @@
+﻿Build started 2017-04-28 8:06:28 AM.
+     1>Project "C:\GameDev\_Projects\Engine\GameEngine\GameEngine.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt AbstractRenderer.cpp BlinnPhongMaterial.cpp Camera.cpp DefaultMaterial.cpp GameObject.cpp GLSLProgram.cpp ImageLoader.cpp IOManager.cpp LogManager.cpp Material.cpp MaterialCache.cpp Mesh.cpp MirrorMaterial.cpp OpenGLRenderer.cpp picoPNG.cpp Quad.cpp RenderList.cpp ResourceLoader.cpp ResourceManager.cpp SceneGraph.cpp ShaderLibrary.cpp Sprite.cpp TextureCache.cpp
+         TextureCache.cpp
+     1>c:\gamedev\_projects\engine\gameengine\imageloader.h(10): warning C4091: 'static ' : ignored on left of 'ImageLoader' when no variable is declared
+         Sprite.cpp
+     1>c:\gamedev\_projects\engine\gameengine\resourcemanager.h(29): warning C4091: 'static ' : ignored on left of 'ResourceManager' when no variable is declared
+         ShaderLibrary.cpp
+         SceneGraph.cpp
+     1>c:\gamedev\_projects\engine\gameengine\resourcemanager.h(29): warning C4091: 'static ' : ignored on left of 'ResourceManager' when no variable is declared
+         ResourceManager.cpp
+     1>c:\gamedev\_projects\engine\gameengine\resourcemanager.h(29): warning C4091: 'static ' : ignored on left of 'ResourceManager' when no variable is declared
+     1>c:\gamedev\_projects\engine\gameengine\resourcemanager.cpp(20): warning C4553: '==' : operator has no effect; did you intend '='?
+         ResourceLoader.cpp
+     1>c:\gamedev\_projects\engine\gameengine\resourcemanager.h(29): warning C4091: 'static ' : ignored on left of 'ResourceManager' when no variable is declared
+     1>c:\gamedev\_projects\engine\gameengine\imageloader.h(10): warning C4091: 'static ' : ignored on left of 'ImageLoader' when no variable is declared
+         RenderList.cpp
+         Quad.cpp
+         picoPNG.cpp
+         OpenGLRenderer.cpp
+     1>c:\gamedev\_projects\engine\gameengine\openglrenderer.cpp(63): warning C4244: 'initializing' : conversion from 'Uint32' to 'float', possible loss of data
+     1>c:\gamedev\_projects\engine\gameengine\openglrenderer.cpp(65): warning C4244: '=' : conversion from 'Uint32' to 'float', possible loss of data
+         MirrorMaterial.cpp
+     1>c:\gamedev\_projects\engine\gameengine\resourcemanager.h(29): warning C4091: 'static ' : ignored on left of 'ResourceManager' when no variable is declared
+         Mesh.cpp
+     1>c:\gamedev\_projects\engine\gameengine\resourcemanager.h(29): warning C4091: 'static ' : ignored on left of 'ResourceManager' when no variable is declared
+         MaterialCache.cpp
+         Material.cpp
+         LogManager.cpp
+         IOManager.cpp
+     1>c:\gamedev\_projects\engine\gameengine\iomanager.h(14): warning C4091: 'static ' : ignored on left of 'IOManager' when no variable is declared
+     1>c:\gamedev\_projects\engine\gameengine\iomanager.cpp(16): warning C4244: 'initializing' : conversion from 'std::streamoff' to 'int', possible loss of data
+     1>c:\gamedev\_projects\engine\gameengine\iomanager.cpp(20): warning C4244: '-=' : conversion from 'std::streamoff' to 'int', possible loss of data
+         ImageLoader.cpp
+     1>c:\gamedev\_projects\engine\gameengine\imageloader.h(10): warning C4091: 'static ' : ignored on left of 'ImageLoader' when no variable is declared
+     1>c:\gamedev\_projects\engine\gameengine\iomanager.h(14): warning C4091: 'static ' : ignored on left of 'IOManager' when no variable is declared
+     1>c:\gamedev\_projects\engine\gameengine\imageloader.cpp(37): warning C4244: '=' : conversion from 'unsigned long' to 'float', possible loss of data
+     1>c:\gamedev\_projects\engine\gameengine\imageloader.cpp(38): warning C4244: '=' : conversion from 'unsigned long' to 'float', possible loss of data
+         GLSLProgram.cpp
+     1>c:\gamedev\_projects\engine\gameengine\glslprogram.cpp(89): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\gamedev\_projects\engine\gameengine\glslprogram.cpp(95): warning C4018: '<' : signed/unsigned mismatch
+         GameObject.cpp
+         DefaultMaterial.cpp
+         Generating Code...
+     1>c:\gamedev\_projects\engine\gameengine\tree.h(75): warning C4715: 'Tree::findNodeInChildren' : not all control paths return a value
+         Compiling...
+         Camera.cpp
+         BlinnPhongMaterial.cpp
+         AbstractRenderer.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\GameDev\_Projects\Engine\Debug\GameEngine.lib" SDL2.lib SDL2main.lib SDL2_net.lib glew32.lib OpenGL32.lib /NOLOGO Debug\AbstractRenderer.obj
+         Debug\BlinnPhongMaterial.obj
+         Debug\Camera.obj
+         Debug\DefaultMaterial.obj
+         Debug\GameObject.obj
+         Debug\GLSLProgram.obj
+         Debug\ImageLoader.obj
+         Debug\IOManager.obj
+         Debug\LogManager.obj
+         Debug\Material.obj
+         Debug\MaterialCache.obj
+         Debug\Mesh.obj
+         Debug\MirrorMaterial.obj
+         Debug\OpenGLRenderer.obj
+         Debug\picoPNG.obj
+         Debug\Quad.obj
+         Debug\RenderList.obj
+         Debug\ResourceLoader.obj
+         Debug\ResourceManager.obj
+         Debug\SceneGraph.obj
+         Debug\ShaderLibrary.obj
+         Debug\Sprite.obj
+         Debug\TextureCache.obj
+     1>SDL2_net.lib(SDL2_net.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in SDL2.lib(SDL2.dll); second definition ignored
+     1>SDL2_net.lib(SDL2_net.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>glew32.lib(glew32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in SDL2.lib(SDL2.dll); second definition ignored
+     1>glew32.lib(glew32.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>OpenGL32.lib(OPENGL32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in SDL2.lib(SDL2.dll); second definition ignored
+     1>OpenGL32.lib(OPENGL32.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         GameEngine.vcxproj -> C:\GameDev\_Projects\Engine\Debug\GameEngine.lib
+     1>Done Building Project "C:\GameDev\_Projects\Engine\GameEngine\GameEngine.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.20

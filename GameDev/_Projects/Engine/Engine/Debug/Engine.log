@@ -1,0 +1,13 @@
+﻿Build started 2017-04-28 8:06:40 AM.
+     1>Project "C:\GameDev\_Projects\Engine\Engine\Engine.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Engine.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\GameDev\_Projects\Engine\Debug\TestGame.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\GameDev\_Projects\Engine\Debug SDL2.lib SDL2main.lib SDL2_net.lib glew32.lib OpenGL32.lib GameEngine.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\GameDev\_Projects\Engine\Debug\TestGame.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\GameDev\_Projects\Engine\Debug\TestGame.lib" /MACHINE:X86 Debug\Main.obj
+         Debug\MainGame.obj
+     1>MSVCRTD.lib(cinitexe.obj) : warning LNK4098: defaultlib 'msvcrt.lib' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Engine.vcxproj -> C:\GameDev\_Projects\Engine\Debug\TestGame.exe
+     1>Done Building Project "C:\GameDev\_Projects\Engine\Engine\Engine.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.35
